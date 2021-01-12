@@ -1,0 +1,35 @@
+{
+  "name": "experiment-wdio-shadowdom-browserstack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio wdio.bs.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bobbijvoet/experiment-wdio-shadowdom-browserstack.git"
+  },
+  "author": "Bob Bijvoet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bobbijvoet/experiment-wdio-shadowdom-browserstack/issues"
+  },
+  "homepage": "https://github.com/bobbijvoet/experiment-wdio-shadowdom-browserstack#readme",
+  "devDependencies": {
+    "@wdio/browserstack-service": "^6.10.10",
+    "@wdio/local-runner": "^6.10.13",
+    "@wdio/mocha-framework": "^6.10.11",
+    "@wdio/spec-reporter": "^6.10.6",
+    "@wdio/sync": "^6.10.11",
+    "chromedriver": "^87.0.4",
+    "query-selector-shadow-dom": "^0.8.0",
+    "wdio": "^4.0.0",
+    "wdio-chromedriver-service": "^6.0.4"
+  },
+  "dependencies": {
+    "@wdio/cli": "^6.10.11",
+    "wdio-safaridriver-service": "0.0.1",
+    "webdriverio": "^6.10.11"
+  }
+}
